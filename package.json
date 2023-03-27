@@ -1,0 +1,23 @@
+{
+  "name": "20230328-quote-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i input.css -o output.css --watch1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shendrongddv/20230328-quote-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shendrongddv/20230328-quote-generator/issues"
+  },
+  "homepage": "https://github.com/shendrongddv/20230328-quote-generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
