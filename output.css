@@ -1630,6 +1630,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
 .from-green-400 {
   --tw-gradient-from: #4ade80;
   --tw-gradient-to: rgb(74 222 128 / 0);
