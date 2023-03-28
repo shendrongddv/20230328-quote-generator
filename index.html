@@ -10,18 +10,23 @@
   </head>
   <body class="bg-gradient-to-br from-[#00DBF2] to-[#9103F7] text-white">
     <div
-      class="quoteBox max-w-screen-sm p-6 mx-auto h-screen flex-col justify-between"
+      class="quoteBox max-w-screen-sm p-6 mx-auto h-screen flex flex-col justify-between"
     >
-      <h2 class="font-bold">Random Quote Generator</h2>
-      <blockquote id="quote">Loading...</blockquote>
-      <span id="author">Loading...</span>
-      <div>
-        <button onclick="getQuote(api_url)">New Quote</button>
-        <button onclick="tweet()">
-          <img class="icon" src="./twitter-line.svg" alt="Twitter" />
-          Tweet
-        </button>
-      </div>
+      <header>
+        <h2 class="font-bold">Random Quote Generator</h2>
+      </header>
+      <main class="border-solid border-white p-6 border-4 relative">
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+          <button onclick="getQuote(api_url)">New Quote</button>
+          <button onclick="tweet()">
+            <img class="icon" src="./twitter-line.svg" alt="Twitter" />
+            Tweet
+          </button>
+        </div>
+      </main>
+      <footer>Andri Irawan</footer>
     </div>
 
     <!-- JS -->
