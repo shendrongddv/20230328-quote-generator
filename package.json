@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "tailwindcss -i input.css -o output.css --watch1"
+    "start": "tailwindcss -i input.css -o output.css",
+    "dev": "tailwindcss -i input.css -o output.css --watch"
   },
   "repository": {
     "type": "git",
