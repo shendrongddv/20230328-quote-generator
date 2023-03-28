@@ -15,9 +15,13 @@
       <header>
         <h2 class="font-bold">Random Quote Generator</h2>
       </header>
-      <main class="border-solid border-white p-6 border-4 relative">
-        <blockquote id="quote">Loading...</blockquote>
-        <span id="author">Loading...</span>
+      <main
+        class="border-solid border-white p-6 border-4 relative flex flex-col space-y-4"
+      >
+        <blockquote id="quote" class="text-2xl font-semibold">
+          Loading...
+        </blockquote>
+        <span id="author" class="">Loading...</span>
         <div>
           <button onclick="getQuote(api_url)">New Quote</button>
           <button onclick="tweet()">
