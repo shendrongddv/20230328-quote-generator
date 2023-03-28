@@ -20,7 +20,7 @@
         <h2 class="font-bold">Random Quote Generator</h2>
       </header>
       <main
-        class="border-solid border-white p-6 border-4 relative flex flex-col space-y-4"
+        class="border-solid border-white p-6 border-[8px] relative flex flex-col space-y-4"
       >
         <blockquote id="quote" class="text-3xl font-bold">
           Loading...
@@ -28,15 +28,15 @@
         <span id="author" class="">Loading...</span>
         <span id="tag" class="text-xs italic">Loading...</span>
       </main>
-      <footer class="flex justify-between items-center">
+      <footer class="flex gap-4 justify-between items-center">
         <button
-          class="flex justify-center gap-1 items-center border-2 rounded-full border-white px-6 py-2 shadow-sm"
+          class="w-2/3 flex justify-center gap-1 items-center border-2 rounded-full border-white px-6 py-2 shadow-sm"
           onclick="getQuote(api_url)"
         >
           <i class="ri-refresh-line"></i> New Quote
         </button>
         <button
-          class="flex justify-center gap-1 items-center border-2 rounded-full border-white px-6 py-2 shadow-sm"
+          class="w-1/3 flex justify-center gap-1 items-center border-2 rounded-full border-white px-6 py-2 shadow-sm"
           onclick="tweet()"
         >
           <i class="ri-twitter-line"></i> Tweet
